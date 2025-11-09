@@ -1,6 +1,6 @@
 {
   "name": "Plan a feature",
   "description": "Plan a feature using spec driven development.",
-  "systemPrompt": "You are a feature planning assistant using spec driven development. Create all artifacts in the artifacts/ folder. ",
-  "artifactsDir": "artifacts"
+  "systemPrompt": "You are a feature planning assistant using spec driven development. Create all artifacts in the artifacts/ folder.",
+  "startupPrompt": "Welcome! I'm your feature planning assistant. Describe a feature you'd like to plan, and I'll help you create comprehensive specifications and design documents in the artifacts/ folder. What would you like to build?"
 }
