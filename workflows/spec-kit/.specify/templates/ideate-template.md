@@ -1,42 +1,53 @@
-h4. *_General guidance:_* _RFEs should be well-defined and focused so the RFE council can effectively evaluate them. For feature enhancements that are significantly larger in scope, start with high-level requirements and collaborate with one or more of the RFE council members to refine the scope._
-
-h4. *_Some guiding principles:_*
-
-# _Smaller RFEs are preferred_
-# _RFEs that are too broad should not be prescriptive about solutions_
-# _If an RFE is prescriptive, it should be for a well-defined domain (e.g., supporting a particular accelerator type for distributed training/inference)_
-
-_RFEs that do not follow these guidelines or principles will be rejected and require revisions._
+ALWAYS cite sources and be realistic.  Do not be a "sycophant".
 
 
+You will be evaluating a Request for Enhancement (RFE) document to determine if it meets quality standards and follows established guidelines. Here is the RFE content to evaluate:
 
-h4. *Problem Statement* 
+<rfe_content>
+{{RFE_CONTENT}}
+</rfe_content>
 
-_What problem or user pain point will the proposed enhancement solve? If possible, include diagrams. Provide as much detail as needed to convey how things currently work with the product and any challenges associated with that._
+Your task is to assess whether this RFE follows the guiding principles and contains all required sections with sufficient detail. 
 
-h4. *Business Alignment*
+The RFE should follow these guiding principles:
+1. Smaller RFEs are preferred
+2. RFEs that are too broad should not be prescriptive about solutions
+3. If an RFE is prescriptive, it should be for a well-defined domain
 
-# _What is the Business Value and/or Impact of this enhancement?_
-## _What is the expected impact (e.g., number of customers or dollar amount)?_
-## _Please include any data on the market opportunity if known._
-# _To what Red Hat AI Outcome does this align? (if applicable)_
+The RFE must include these required sections with adequate detail:
+- Problem Statement: Clear description of the problem or user pain point
+- Proposed Solution/Rationale: High-level description of new functionality
+- Acceptance Criteria: Clear criteria for success and what defines "done"
 
-h4. *Proposed Solution/Rationale*
+The RFE should also ideally include these optional but desired sections:
+- Alternative Approaches Considered  
+- Reference Documents/Links
 
-_Provide a high-level description of the new functionality or change and how it is intended to work. Include the client/user scenario(s). Include any assumptions made for the proposed enhancement._ 
+Use the following format for your evaluation:
 
-h4. *Acceptance Criteria*
+<scratchpad>
+Systematically evaluate each aspect:
 
-_List the criteria for success. What defines "done"? These can also include accelerator support, package dependencies, product documentation, etc._  
+1. Guiding Principles Assessment:
+   - Is the RFE appropriately scoped (not too broad)?
+   - If prescriptive, is it for a well-defined domain?
+   - Does it avoid being overly prescriptive for broad topics?
 
-h4. *Affected Customers/Partners & Scope (Optional, though desired)*
+2. Required Sections Check:
+   - Problem Statement: [assess presence and quality]
+   - Business Alignment: [assess presence and quality]
+   - Proposed Solution/Rationale: [assess presence and quality]
+   - Acceptance Criteria: [assess presence and quality]
 
-_Identify the customers or partners (potential and current) who would benefit from this enhancement. Indicate whether the impact is broad or limited in scope (e.g., specific type of client, region, use case). If applicable, include any known customer requests or partner input that support this enhancement._
+3. Optional Sections Check:
+   - Note which optional sections are present and their quality
 
-h4. *Alternative Approaches Considered (Optional, though desired)*
+4. Overall Assessment:
+   - Major strengths
+   - Major weaknesses or gaps
+   - Whether it meets minimum standards
+</scratchpad>
 
-_Outline alternative options and explain their inadequacies, highlighting the necessity for a new approach. What exists in this area already? Why have those approaches been unsuccessful?_
+After your analysis, provide your assessment. First, explain your reasoning about the RFE's strengths and weaknesses, then provide your final recommendation.
 
-h4. *Reference Documents/Links (Optional, though desired)*
-
-_Link any existing documents, previous research, or supporting data. Links can be added directly as JIRA links instead._
+Your final response should include only your reasoning and recommendation - do not repeat the scratchpad analysis.
