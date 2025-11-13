@@ -1,4 +1,4 @@
-# Bug Fix Workflow for Ambient Code Platform
+# Bug Fix Workflow
 
 A comprehensive workflow for systematic bug triage, root cause analysis, fix implementation, and verification with automated regression testing.
 
@@ -8,7 +8,7 @@ The Bug Fix Workflow provides a structured, methodical approach to diagnosing an
 
 ## Quick Start
 
-1. **Install the workflow** in your Ambient Code Platform workspace
+1. **Install the workflow** in your Claude Code workspace
 2. **Start with** `/reproduce "<bug description>"` to begin the workflow
 3. **Follow the phases** in order: reproduce → analyze → fix → test → verify
 4. **Review artifacts** in `artifacts/bugs/{bug-id}/` for all documentation
@@ -308,7 +308,7 @@ MIT License - see LICENSE file for details
 
 ## Acknowledgments
 
-Built for the Ambient Code Platform, inspired by systematic debugging methodologies and industry best practices in software quality assurance.
+Built with Claude Code, inspired by systematic debugging methodologies and industry best practices in software quality assurance.
 
 ---
 

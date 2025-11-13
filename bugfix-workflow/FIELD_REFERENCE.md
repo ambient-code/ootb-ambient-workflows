@@ -7,7 +7,7 @@ Quick reference guide for all configuration fields in `ambient.json`.
 ### name
 - **Type:** String
 - **Required:** Yes
-- **Description:** Display name shown in ACP UI/CLI
+- **Description:** Display name shown in Claude Code UI/CLI
 - **Best Practice:** 2-5 words, action-oriented, title case
 - **Example:** `"Bug Fix Workflow"`
 
@@ -398,7 +398,7 @@ See `.ambient/ambient.json` in this workflow for a complete, production-ready ex
 ## Resources
 
 - **Template Workflow:** Reference implementation with all fields
-- **ACP Documentation:** Official platform documentation
+- **Claude Code Documentation:** Official platform documentation
 - **JSON Schema:** Validate your configuration
 - **Examples:** See other workflows for patterns
 
